@@ -1,0 +1,40 @@
+{
+  "name": "okx-usdc-bridge",
+  "version": "1.0.0",
+  "description": "Bridge USDC tokens from Base to Arbitrum using OKX DEX API",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "bridge": "ts-node src/bridge.ts",
+    "estimate": "ts-node src/estimate.ts",
+    "status": "ts-node src/status.ts"
+  },
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "crypto-js": "^4.2.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/crypto-js": "^4.2.1",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "okx",
+    "bridge",
+    "usdc",
+    "base",
+    "arbitrum",
+    "cross-chain",
+    "defi"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 

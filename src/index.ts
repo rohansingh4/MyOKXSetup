@@ -47,6 +47,7 @@ async function main() {
       console.log('1. Copy env.example to .env');
       console.log('2. Fill in your OKX API credentials and wallet details');
       console.log('3. Ensure you have USDC on Base chain');
+      
     }
   }
 }
